@@ -6,17 +6,23 @@
 .form-control:focus {
   box-shadow: none;
 }
+.rounded-b-md,
+.rounded-md {
+  border-radius: 0;
+}
 
 main {
   --color-bg-primary: #fff;
   --color-bg-tertiary: #fff;
   --color-input-contrast-bg: #f2f2f2;
+  --color-bg-canvas-inset: #f4f6f5;
 }
 @media (prefers-color-scheme: dark) {
   main {
     --color-bg-primary: #1f1e21;
     --color-bg-tertiary: #1f1e21;
     --color-input-contrast-bg: #3b373a;
+    --color-bg-canvas-inset: #151417;
   }
 }
 
