@@ -3,3 +3,30 @@
 .gsc-header {
   display: none;
 }
+.form-control:focus {
+  box-shadow: none;
+}
+
+main {
+  --color-bg-primary: #fff;
+  --color-bg-tertiary: #fff;
+  --color-input-contrast-bg: #f2f2f2;
+}
+@media (prefers-color-scheme: dark) {
+  main {
+    --color-bg-primary: #1f1e21;
+    --color-bg-tertiary: #1f1e21;
+    --color-input-contrast-bg: #3b373a;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
